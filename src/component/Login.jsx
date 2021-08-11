@@ -18,11 +18,11 @@ const Login = (props) => {
     const procesarDatos = (e) => {
         e.preventDefault()
         if(!email.trim()){
-            setError('Mete uñn email');
+            setError('Mete un email');
             return
         }
         if(!password.trim()){
-            setError('Mete una conasdtraseña');
+            setError('Mete una contraseña');
             return
         }
         if(!password.trim() > 6){
